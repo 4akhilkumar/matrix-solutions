@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 1rem;
+  box-shadow: 0 0 10px #0000001a;
+  height: 5rem;
+}
+
+nav.nav-bar a {
+  text-decoration: none;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.brand a {
+  color: #444;
+  font-size: 1.5em;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 426px) {
+  .nav-bar a span.create-account-text {
+    display: none;
+  }
+}
+
+.brand img {
+  width: 40px;
+  border-radius: 4px;
+}
+
+section.policy {
+  display: flex;
+  flex-direction: column;
+  margin: 6rem 4rem 1rem 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.main-heading h1 {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.effective-date {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.effective-date h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.content-section {
+  margin: 1rem 0;
+}
+
+.content-section h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.content-sub-section {
+  margin-bottom: 0.75rem;
+}
+
+.content-sub-section h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+li {
+  margin-left: 1.5rem;
+}
